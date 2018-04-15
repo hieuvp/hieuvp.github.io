@@ -1,0 +1,16 @@
+{
+  "comma-dangle": [
+    "error",
+    "never"
+  ],
+  "jsdoc/require-param-description": "off",
+  "jsdoc/require-returns-description": "off",
+  "optimize-regex/optimize-regex": "warn",
+  "prettier/prettier": [
+    "error",
+    {
+      "printWidth": 96,
+      "singleQuote": true
+    }
+  ]
+}

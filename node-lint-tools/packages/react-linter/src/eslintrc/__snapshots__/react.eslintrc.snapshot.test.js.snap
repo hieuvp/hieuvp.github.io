@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+Object {
+  "extends": Array [
+    "airbnb-base",
+    "plugin:eslint-comments/recommended",
+    "plugin:jest/recommended",
+    "plugin:jsdoc/recommended",
+    "plugin:node/recommended",
+    "plugin:prettier/recommended",
+    "plugin:promise/recommended",
+    "plugin:security/recommended",
+    "plugin:unicorn/recommended",
+    "airbnb",
+    "plugin:import/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "prettier/react",
+  ],
+  "overrides": Array [
+    Object {
+      "files": Array [
+        "runfile.js",
+        "*.test.js",
+        "*.spec.js",
+      ],
+      "rules": Object {
+        "import/no-extraneous-dependencies": "off",
+        "node/no-extraneous-require": "off",
+      },
+    },
+  ],
+  "plugins": Array [
+    "eslint-comments",
+    "jest",
+    "jsdoc",
+    "node",
+    "optimize-regex",
+    "prettier",
+    "promise",
+    "security",
+    "unicorn",
+    "import",
+    "jsx-a11y",
+    "react",
+  ],
+  "rules": Object {
+    "comma-dangle": Array [
+      "error",
+      "never",
+    ],
+    "jsdoc/require-param-description": "off",
+    "jsdoc/require-returns-description": "off",
+    "optimize-regex/optimize-regex": "warn",
+    "prettier/prettier": Array [
+      "error",
+      Object {
+        "printWidth": 96,
+        "singleQuote": true,
+      },
+    ],
+  },
+}
+`;
